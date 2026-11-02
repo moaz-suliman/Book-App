@@ -1,17 +1,32 @@
-# first_project
+# Flutter Book App
 
-A new Flutter project.
+A clean and modern book browsing and exploration application built with **Flutter**, fetching live data from **DummyJSON** APIs with a robust architecture and scalable state management.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Book Catalog:** Browse a diverse collection of books dynamically fetched from remote endpoints.
+- **Detailed View:** Clean inspection interface for viewing specific book details.
+- **State Management:** Efficient and predictable UI state handling using **Provider**.
+- **Dependency Injection:** Modular service locator implementation via **GetIt**.
+- **Architecture:** Strictly structured following the **MVVM (Model-View-ViewModel)** pattern to separate business logic from UI components.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+- **Flutter & Dart** – Cross-platform mobile application development
+- **Provider** – State management solution
+- **GetIt** – Dependency injection and service locator
+- **DummyJSON API** – Remote data provider for book records
+- **REST API** – HTTP communication and data parsing
+
+---
+
+## Architecture
+
+The project follows the **MVVM** pattern:
+- **Model:** Handles data parsing and data transfer objects (DTOs) from the DummyJSON API.
+- **View:** Represents the UI screens and widgets observing state changes.
+- **ViewModel:** Manages business logic, API calls, and exposes reactive states to the View via Provider.
