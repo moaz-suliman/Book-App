@@ -24,9 +24,9 @@ A clean and modern book browsing and exploration application built with **Flutte
 
 ---
 
-## Architecture
+### splash page
+### home page
+### book detail page
+### saved page 
+### profile page 
 
-The project follows the **MVVM** pattern:
-- **Model:** Handles data parsing and data transfer objects (DTOs) from the DummyJSON API.
-- **View:** Represents the UI screens and widgets observing state changes.
-- **ViewModel:** Manages business logic, API calls, and exposes reactive states to the View via Provider.
