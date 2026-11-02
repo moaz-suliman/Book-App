@@ -25,8 +25,12 @@ A clean and modern book browsing and exploration application built with **Flutte
 ---
 
 ### splash page
+<img width="414" height="765" alt="image" src="https://github.com/user-attachments/assets/65e3315b-85f1-459d-bdd0-be36a9720c3c" />
+
 ### home page
 ### book detail page
 ### saved page 
 ### profile page 
+<img width="414" height="738" alt="image" src="https://github.com/user-attachments/assets/80a37184-a4e5-4f5e-b91b-5ab15ca6554c" />
+
 
